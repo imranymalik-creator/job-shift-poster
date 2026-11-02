@@ -1,0 +1,17 @@
+{
+  "note": "One entry per reel. when = India time. video = a file in media/. platforms: ig (Instagram) and/or fb (Facebook Page). ig_collaborators = Instagram usernames invited as collaborators (max 3). Claude adds the week's reels here every Saturday after Imran approves them. Set \"paused\": true to hold one back.",
+  "posts": [
+    {
+      "id": "test-001",
+      "when": "2026-12-31T23:00:00+05:30",
+      "title": "Test reel (never published: only used by the 'check' test)",
+      "series": "test",
+      "test": true,
+      "video": "media/test-001.mp4",
+      "platforms": ["ig"],
+      "ig_collaborators": ["i.m.imran"],
+      "caption": "Test only. Not for publishing.",
+      "paused": false
+    }
+  ]
+}

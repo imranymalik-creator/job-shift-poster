@@ -1,0 +1,31 @@
+# Sundays 08:00 India time: save views, reach and engagement for the Sunday review (insights/latest.json).
+name: Insights
+on:
+  schedule:
+    - cron: "30 2 * * 0"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: poster
+  cancel-in-progress: false
+jobs:
+  insights:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      META_TOKEN: ${{ secrets.META_TOKEN }}
+      IG_USER_ID: ${{ vars.IG_USER_ID }}
+      FB_PAGE_ID: ${{ vars.FB_PAGE_ID }}
+      GRAPH_VERSION: ${{ vars.GRAPH_VERSION }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node poster/insights.mjs
+      - run: |
+          git config user.name "job-shift-poster"
+          git config user.email "actions@users.noreply.github.com"
+          git add insights/ || true
+          git diff --cached --quiet || (git commit -m "Weekly insights" && git pull --rebase && git push)
