@@ -24,11 +24,18 @@ const log = (...a) => console.log(new Date().toISOString().slice(11, 19), ...a);
 
 // ---------- Instagram: reel container → wait until FINISHED → publish ----------
 async function igContainer(p, url) {
-  const c = await g("POST", `${CFG.ig}/media`, {
-    media_type: "REELS", video_url: url, caption: p.caption || "", share_to_feed: true,
-    collaborators: (p.ig_collaborators || []).length ? p.ig_collaborators.slice(0, 3) : undefined,
-    cover_url: p.cover ? mediaUrl(p.cover) : undefined, thumb_offset: p.cover ? undefined : p.thumb_ms
-  });
+  const base = { media_type: "REELS", video_url: url, caption: p.caption || "", share_to_feed: true,
+    cover_url: p.cover ? mediaUrl(p.cover) : undefined, thumb_offset: p.cover ? undefined : p.thumb_ms };
+  const collab = (p.ig_collaborators || []).slice(0, 3);
+  let c;
+  try { c = await g("POST", `${CFG.ig}/media`, { ...base, collaborators: collab.length ? collab : undefined }); }
+  catch (e) {
+    // Meta can only invite PUBLIC accounts as collaborators (a private one gives code 110/2207018): post without the
+    // invite rather than miss the slot; the invite is then added by hand in the Instagram app (⋯ › Edit › Invite collaborator)
+    if (!collab.length || !/2207018|cannot be accessed/.test(e.message)) throw e;
+    log(`${p.id}: Instagram refused the collaborator invite (${collab.join(", ")}: account private?). Posting without it; invite by hand.`);
+    c = await g("POST", `${CFG.ig}/media`, base);
+  }
   for (let i = 0; i < WAIT_TRIES; i++) {
     await sleep(WAIT_MS);
     const s = await g("GET", c.id, { fields: "status_code,status" });
