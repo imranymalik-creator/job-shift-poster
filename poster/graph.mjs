@@ -1,13 +1,14 @@
 // © 2026 Job Shift Careers. Small helper for Meta's Graph API (Instagram + Facebook Page). No extra packages.
 // Settings come from the repository's secrets and variables (Settings › Secrets and variables › Actions):
 //   META_TOKEN   (secret)   a token that can post for the Job Shift Careers Page and @jobshiftcareers
-//   IG_USER_ID   (variable) the Instagram business account id   (poster/whoami.mjs prints it)
-//   FB_PAGE_ID   (variable) the Facebook Page id                 (poster/whoami.mjs prints it)
+//   IG_USER_ID, FB_PAGE_ID   in poster/config.json (public ids; a repository variable of the same name overrides)
 //   GRAPH_VERSION (variable, optional) default v23.0
+import fs from "node:fs";
+const FILE = (() => { try { return JSON.parse(fs.readFileSync(new URL("./config.json", import.meta.url), "utf8")); } catch (e) { return {}; } })();
 export const CFG = {
   token: process.env.META_TOKEN || "",
-  ig: process.env.IG_USER_ID || "",
-  page: process.env.FB_PAGE_ID || "",
+  ig: process.env.IG_USER_ID || FILE.IG_USER_ID || "",
+  page: process.env.FB_PAGE_ID || FILE.FB_PAGE_ID || "",
   ver: process.env.GRAPH_VERSION || "v23.0",
   base: process.env.GRAPH_BASE || "https://graph.facebook.com",
   rupload: process.env.RUPLOAD_BASE || "https://rupload.facebook.com",

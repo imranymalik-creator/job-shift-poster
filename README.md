@@ -12,8 +12,7 @@ Job Shift Careers: scheduled posts to Instagram (@jobshiftcareers, with i.m.imra
 | Name | Kind | What |
 | --- | --- | --- |
 | `META_TOKEN` | Secret | Meta key that can post for the Page and @jobshiftcareers. Only Imran adds or changes it. |
-| `IG_USER_ID` | Variable | Instagram business account id (Actions › Post › Run workflow › *whoami* prints it) |
-| `FB_PAGE_ID` | Variable | Facebook Page id (same) |
+| `IG_USER_ID`, `FB_PAGE_ID` | `poster/config.json` | Public ids of @jobshiftcareers and the Page (*whoami* prints them) |
 | `GRAPH_VERSION` | Variable, optional | Meta API version, default `v23.0` |
 
 ## Tests
