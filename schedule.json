@@ -8,10 +8,62 @@
       "series": "test",
       "test": true,
       "video": "media/test-001.mp4",
-      "platforms": ["ig"],
-      "ig_collaborators": ["i.m.imran"],
+      "platforms": [
+        "ig"
+      ],
+      "ig_collaborators": [
+        "i.m.imran"
+      ],
       "caption": "Test only. Not for publishing.",
       "paused": false
+    },
+    {
+      "id": "inhand-12l",
+      "when": "2026-11-03T19:00:00+05:30",
+      "title": "Real In-Hand: ₹12 lakh CTC",
+      "series": "real-in-hand",
+      "video": "media/reel-inhand-12l.mp4",
+      "platforms": [
+        "ig",
+        "fb"
+      ],
+      "caption": "₹12 lakh CTC. Zero income tax. So why only ₹78,268 a month? 👀\n\nThe bonus comes once a year (if targets are met), employer PF and gratuity come later, and your own PF is cut every month.\n\nX-ray your own offer in 30 seconds: link in bio.\nSend this to a friend who's about to accept an offer.\n\n#InHandSalary #CTC #SalaryIndia #JobSwitch #OfferLetter"
+    },
+    {
+      "id": "inhand-18l",
+      "when": "2026-11-04T19:00:00+05:30",
+      "title": "Real In-Hand: ₹18 lakh CTC",
+      "series": "real-in-hand",
+      "video": "media/reel-inhand-18l.mp4",
+      "platforms": [
+        "ig",
+        "fb"
+      ],
+      "caption": "₹18 lakh CTC = ₹1.5 lakh a month? Only ₹1,08,159 actually reaches your bank. 👀\n\nBonus once a year, PF and gratuity later, ₹9,347 tax every month. Your CTC is not your salary.\n\nX-ray your own offer in 30 seconds: link in bio.\nSend this to a friend who's about to accept an offer.\n\n#InHandSalary #CTC #SalaryIndia #JobSwitch #OfferLetter"
+    },
+    {
+      "id": "inhand-6l",
+      "when": "2026-11-05T19:00:00+05:30",
+      "title": "Real In-Hand: ₹6 lakh CTC",
+      "series": "real-in-hand",
+      "video": "media/reel-inhand-6l.mp4",
+      "platforms": [
+        "ig",
+        "fb"
+      ],
+      "caption": "₹6 lakh CTC = ₹50,000 a month? Not quite: ₹39,030 reaches your bank. 👀\n\nNo income tax at all, and still ₹11,000 a month of your CTC never shows up in your account. Here's where it goes.\n\nX-ray your own offer in 30 seconds: link in bio.\nSend this to a friend who's about to accept an offer.\n\n#InHandSalary #CTC #SalaryIndia #JobSwitch #OfferLetter"
+    },
+    {
+      "id": "inhand-25l",
+      "when": "2026-11-06T19:00:00+05:30",
+      "title": "Real In-Hand: ₹25 lakh CTC",
+      "series": "real-in-hand",
+      "video": "media/reel-inhand-25l.mp4",
+      "platforms": [
+        "ig",
+        "fb"
+      ],
+      "caption": "₹25 lakh CTC. ₹2,08,333 a month on paper. ₹1,42,839 in your bank. 👀\n\nThat's 69% of the headline. Before you accept an offer, know your real number.\n\nX-ray your own offer in 30 seconds: link in bio.\nSend this to a friend who's about to accept an offer.\n\n#InHandSalary #CTC #SalaryIndia #JobSwitch #OfferLetter"
     }
   ]
 }
