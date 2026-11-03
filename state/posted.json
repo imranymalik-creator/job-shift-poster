@@ -5,7 +5,11 @@
       "link": "https://www.instagram.com/reel/DfSBzakkeBu/",
       "at": "2026-11-03T13:50:36.301Z"
     },
-    "fb_error": "Meta said no (POST 1462508346926284/video_reels): (#200) Subject does not have permission to post videos on this target [code 200]",
-    "fb_tries": 1
+    "fb_tries": 1,
+    "fb": {
+      "id": "28888684974157907",
+      "link": "https://www.facebook.com/reel/28888684974157907",
+      "at": "2026-11-03T13:54:27.595Z"
+    }
   }
 }
