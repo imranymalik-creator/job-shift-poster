@@ -10,8 +10,11 @@ const srv = http.createServer((q, r) => {
     if (/\/C\d+$/.test(p)) return J({ status_code: "FINISHED" });
     if (p.endsWith("/IG1/media_publish")) { publishes++; return J({ id: "M" + body.creation_id }); }
     if (/\/MC\d+$/.test(p)) return J({ permalink: "https://instagram.com/reel/x" });
+    if (q.method === "GET" && p.endsWith("/PG1") && u.searchParams.get("fields") === "access_token") return J({ access_token: "PAGETOKEN", id: "PG1" });
+    // like real Meta: the Page's videos need the Page's own key, not the system-user key
+    if (p.endsWith("/PG1/video_reels") && body.access_token !== "PAGETOKEN") return J({ error: { message: "(#200) Subject does not have permission to post videos on this target", code: 200 } });
     if (p.endsWith("/PG1/video_reels") && body.upload_phase === "start") return J({ video_id: "V9", upload_url: "x" });
-    if (p.startsWith("/video-upload/")) return J({ success: q.headers.file_url ? true : false });
+    if (p.startsWith("/video-upload/")) return J({ success: q.headers.file_url && q.headers.authorization === "OAuth PAGETOKEN" ? true : false });
     if (p.endsWith("/PG1/video_reels") && body.upload_phase === "finish") return J({ success: body.video_state === "PUBLISHED" });
     J({ error: { message: "unknown " + p } });
   });

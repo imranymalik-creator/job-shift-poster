@@ -52,12 +52,23 @@ async function postIG(p, url) {
 }
 
 // ---------- Facebook Page reel: start → upload from our URL → finish (publish) ----------
+// Meta only lets a Page's OWN key ("Page access token") publish videos on the Page: the system-user key in META_TOKEN
+// is exchanged for it first (GET /{page}?fields=access_token). Without this Meta answers "(#200) Subject does not have
+// permission to post videos on this target" (seen 3 Nov 2026). Instagram keeps using META_TOKEN.
+let PAGE_TOKEN = null;
+async function pageToken() {
+  if (PAGE_TOKEN) return PAGE_TOKEN;
+  const r = await g("GET", CFG.page, { fields: "access_token" });
+  if (!r.access_token) throw new Error("Meta gave no Page key for the Facebook Page: the system user needs the Page assigned with full control");
+  return (PAGE_TOKEN = r.access_token);
+}
 async function postFB(p, url) {
-  const st = await g("POST", `${CFG.page}/video_reels`, { upload_phase: "start" });
-  const r = await fetch(`${CFG.rupload}/video-upload/${CFG.ver}/${st.video_id}`, { method: "POST", headers: { Authorization: "OAuth " + CFG.token, file_url: url } });
+  const tk = await pageToken();
+  const st = await g("POST", `${CFG.page}/video_reels`, { upload_phase: "start" }, { token: tk });
+  const r = await fetch(`${CFG.rupload}/video-upload/${CFG.ver}/${st.video_id}`, { method: "POST", headers: { Authorization: "OAuth " + tk, file_url: url } });
   const up = await r.json().catch(() => ({}));
   if (!r.ok || up.success === false) throw new Error(`Facebook couldn't fetch the video: ${(up.debug_info && up.debug_info.message) || r.status}`);
-  await g("POST", `${CFG.page}/video_reels`, { upload_phase: "finish", video_id: st.video_id, video_state: "PUBLISHED", description: p.fb_caption || p.caption || "" });
+  await g("POST", `${CFG.page}/video_reels`, { upload_phase: "finish", video_id: st.video_id, video_state: "PUBLISHED", description: p.fb_caption || p.caption || "" }, { token: tk });
   return { id: st.video_id, link: `https://www.facebook.com/reel/${st.video_id}` };
 }
 
