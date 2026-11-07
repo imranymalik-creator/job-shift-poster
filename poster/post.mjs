@@ -103,7 +103,7 @@ async function main() {
       }
     }
   }
-  if (changed) save();
+  if (changed && !DRY) save();   // --dry never writes state (7 Nov: a dry run with a future POSTER_NOW had marked this week as skipped)
   if (failed) process.exitCode = CHECK ? 1 : 0;   // a failed post is recorded and retried; the run itself stays green
 }
 main().catch(e => { console.error(e.message); process.exitCode = 1; });
