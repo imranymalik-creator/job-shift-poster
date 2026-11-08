@@ -1,0 +1,116 @@
+{
+  "saved": "2026-11-08T09:20:18.206Z",
+  "day": "2026-11-08",
+  "accounts": {
+    "ig": {
+      "id": "17841409529497261",
+      "followers_count": 14,
+      "media_count": 13,
+      "username": "jobshiftcareers"
+    },
+    "fb": {
+      "name": "Job Shift Careers",
+      "followers_count": 32,
+      "fan_count": 32,
+      "id": "1462508346926284"
+    }
+  },
+  "posts": [
+    {
+      "id": "inhand-12l",
+      "when": "2026-11-03T19:00:00+05:30",
+      "series": "real-in-hand",
+      "title": "Real In-Hand: ₹12 lakh CTC",
+      "ig": {
+        "views": 181,
+        "reach": 132,
+        "likes": 4,
+        "comments": 2,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 6,
+        "ig_reels_avg_watch_time": 4981
+      },
+      "ig_link": "https://www.instagram.com/reel/DfSBzakkeBu/",
+      "fb": {
+        "blue_reels_play_count": 4,
+        "post_video_avg_time_watched": 24608,
+        "post_video_social_actions": {
+          "COMMENT": 1
+        }
+      },
+      "fb_link": "https://www.facebook.com/reel/28888684974157907"
+    },
+    {
+      "id": "inhand-18l",
+      "when": "2026-11-04T19:00:00+05:30",
+      "series": "real-in-hand",
+      "title": "Real In-Hand: ₹18 lakh CTC",
+      "ig": {
+        "views": 75,
+        "reach": 61,
+        "likes": 2,
+        "comments": 1,
+        "shares": 0,
+        "saved": 1,
+        "total_interactions": 4,
+        "ig_reels_avg_watch_time": 4253
+      },
+      "ig_link": "https://www.instagram.com/reel/DfUkk4KCgGe/",
+      "fb": {
+        "blue_reels_play_count": 4,
+        "post_video_avg_time_watched": 4362,
+        "post_video_social_actions": {
+          "COMMENT": 2
+        }
+      },
+      "fb_link": "https://www.facebook.com/reel/1423088360014939"
+    },
+    {
+      "id": "inhand-6l",
+      "when": "2026-11-05T19:00:00+05:30",
+      "series": "real-in-hand",
+      "title": "Real In-Hand: ₹6 lakh CTC",
+      "ig": {
+        "views": 79,
+        "reach": 67,
+        "likes": 2,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 2,
+        "ig_reels_avg_watch_time": 4249
+      },
+      "ig_link": "https://www.instagram.com/reel/DfXJX3eiKPa/",
+      "fb": {
+        "blue_reels_play_count": 1,
+        "post_video_avg_time_watched": 16923,
+        "post_video_social_actions": {}
+      },
+      "fb_link": "https://www.facebook.com/reel/4604811699787701"
+    },
+    {
+      "id": "inhand-25l",
+      "when": "2026-11-06T19:00:00+05:30",
+      "series": "real-in-hand",
+      "title": "Real In-Hand: ₹25 lakh CTC",
+      "ig": {
+        "views": 42,
+        "reach": 37,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 1,
+        "ig_reels_avg_watch_time": 4020
+      },
+      "ig_link": "https://www.instagram.com/reel/DfZuKrRDbWm/",
+      "fb": {
+        "blue_reels_play_count": 2,
+        "post_video_avg_time_watched": 2946,
+        "post_video_social_actions": {}
+      },
+      "fb_link": "https://www.facebook.com/reel/2522620901561497"
+    }
+  ]
+}
