@@ -1,0 +1,411 @@
+{
+  "saved": "2026-11-15T09:45:44.785Z",
+  "day": "2026-11-15",
+  "accounts": {
+    "ig": {
+      "id": "17841409529497261",
+      "followers_count": 22,
+      "media_count": 27,
+      "username": "jobshiftcareers"
+    },
+    "fb": {
+      "name": "Job Shift Careers",
+      "followers_count": 32,
+      "fan_count": 32,
+      "id": "1462508346926284"
+    }
+  },
+  "posts": [
+    {
+      "id": "inhand-12l",
+      "when": "2026-11-03T19:00:00+05:30",
+      "series": "real-in-hand",
+      "title": "Real In-Hand: ₹12 lakh CTC",
+      "ig": {
+        "views": 192,
+        "reach": 136,
+        "likes": 7,
+        "comments": 2,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 10,
+        "ig_reels_avg_watch_time": 4887
+      },
+      "ig_link": "https://www.instagram.com/reel/DfSBzakkeBu/",
+      "fb": {
+        "blue_reels_play_count": 5,
+        "post_video_avg_time_watched": 19981,
+        "post_video_social_actions": {
+          "COMMENT": 1
+        }
+      },
+      "fb_link": "https://www.facebook.com/reel/28888684974157907"
+    },
+    {
+      "id": "inhand-18l",
+      "when": "2026-11-04T19:00:00+05:30",
+      "series": "real-in-hand",
+      "title": "Real In-Hand: ₹18 lakh CTC",
+      "ig": {
+        "views": 78,
+        "reach": 62,
+        "likes": 3,
+        "comments": 1,
+        "shares": 0,
+        "saved": 1,
+        "total_interactions": 6,
+        "ig_reels_avg_watch_time": 4203
+      },
+      "ig_link": "https://www.instagram.com/reel/DfUkk4KCgGe/",
+      "fb": {
+        "blue_reels_play_count": 7,
+        "post_video_avg_time_watched": 2925,
+        "post_video_social_actions": {
+          "COMMENT": 2
+        }
+      },
+      "fb_link": "https://www.facebook.com/reel/1423088360014939"
+    },
+    {
+      "id": "inhand-6l",
+      "when": "2026-11-05T19:00:00+05:30",
+      "series": "real-in-hand",
+      "title": "Real In-Hand: ₹6 lakh CTC",
+      "ig": {
+        "views": 83,
+        "reach": 69,
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 4,
+        "ig_reels_avg_watch_time": 4203
+      },
+      "ig_link": "https://www.instagram.com/reel/DfXJX3eiKPa/",
+      "fb": {
+        "blue_reels_play_count": 6,
+        "post_video_avg_time_watched": 3591,
+        "post_video_social_actions": {}
+      },
+      "fb_link": "https://www.facebook.com/reel/4604811699787701"
+    },
+    {
+      "id": "inhand-25l",
+      "when": "2026-11-06T19:00:00+05:30",
+      "series": "real-in-hand",
+      "title": "Real In-Hand: ₹25 lakh CTC",
+      "ig": {
+        "views": 44,
+        "reach": 38,
+        "likes": 2,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 3,
+        "ig_reels_avg_watch_time": 4126
+      },
+      "ig_link": "https://www.instagram.com/reel/DfZuKrRDbWm/",
+      "fb": {
+        "blue_reels_play_count": 10,
+        "post_video_avg_time_watched": 1491,
+        "post_video_social_actions": {}
+      },
+      "fb_link": "https://www.facebook.com/reel/2522620901561497"
+    },
+    {
+      "id": "pod-ep1",
+      "when": "2026-11-09T11:00:00+05:30",
+      "series": "podcast",
+      "title": "Podcast ep 1: CTC Chacha and the One-Lakh Lie",
+      "ig": {
+        "views": 306,
+        "reach": 205,
+        "likes": 11,
+        "comments": 1,
+        "shares": 1,
+        "saved": 0,
+        "total_interactions": 14,
+        "ig_reels_avg_watch_time": 10343
+      },
+      "ig_link": "https://www.instagram.com/reel/DfglzyimfIl/"
+    },
+    {
+      "id": "w1-genie-hero",
+      "when": "2026-11-09T19:00:00+05:30",
+      "series": "genie",
+      "title": "Genie's 3 wishes: hero",
+      "ig": {
+        "views": 166,
+        "reach": 110,
+        "likes": 13,
+        "comments": 2,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 16,
+        "ig_reels_avg_watch_time": 7125
+      },
+      "ig_link": "https://www.instagram.com/reel/DfhcjxKk04d/",
+      "fb": {
+        "blue_reels_play_count": 5,
+        "post_video_avg_time_watched": 3443,
+        "post_video_social_actions": {}
+      },
+      "fb_link": "https://www.facebook.com/reel/2343745923115870"
+    },
+    {
+      "id": "w1-jobfinder-15yrs",
+      "when": "2026-11-10T11:00:00+05:30",
+      "series": "jobfinder",
+      "title": "Job Finder: 15 years ≠ Sales Officer",
+      "ig": {
+        "views": 281,
+        "reach": 204,
+        "likes": 24,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 25,
+        "ig_reels_avg_watch_time": 6349
+      },
+      "ig_link": "https://www.instagram.com/reel/DfjKasREVgC/",
+      "fb": {
+        "blue_reels_play_count": 5,
+        "post_video_avg_time_watched": 4114,
+        "post_video_social_actions": {}
+      },
+      "fb_link": "https://www.facebook.com/reel/1159716436643290"
+    },
+    {
+      "id": "pod-ep1-clip1",
+      "when": "2026-11-10T19:00:00+05:30",
+      "series": "podcast",
+      "title": "Podcast ep 1, clip 1: 12 LPA = ₹1 lakh a month?",
+      "ig": {
+        "views": 258,
+        "reach": 193,
+        "likes": 9,
+        "comments": 6,
+        "shares": 2,
+        "saved": 0,
+        "total_interactions": 18,
+        "ig_reels_avg_watch_time": 16823
+      },
+      "ig_link": "https://www.instagram.com/reel/DfkBWqZIWDH/",
+      "fb": {
+        "blue_reels_play_count": 5,
+        "post_video_avg_time_watched": 3828,
+        "post_video_social_actions": {
+          "COMMENT": 1
+        }
+      },
+      "fb_link": "https://www.facebook.com/reel/2273290830273411"
+    },
+    {
+      "id": "w1-resume-robot",
+      "when": "2026-11-11T11:00:00+05:30",
+      "series": "resume",
+      "title": "Resume: a robot rejected you",
+      "ig": {
+        "views": 101,
+        "reach": 78,
+        "likes": 4,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 5,
+        "ig_reels_avg_watch_time": 4891
+      },
+      "ig_link": "https://www.instagram.com/reel/DflvNuFDB1p/",
+      "fb": {
+        "blue_reels_play_count": 5,
+        "post_video_avg_time_watched": 1775,
+        "post_video_social_actions": {}
+      },
+      "fb_link": "https://www.facebook.com/reel/1108403358734186"
+    },
+    {
+      "id": "w1-inhand-8l",
+      "when": "2026-11-11T19:00:00+05:30",
+      "series": "real-in-hand",
+      "title": "Real In-Hand: ₹8 lakh CTC",
+      "ig": {
+        "views": 124,
+        "reach": 104,
+        "likes": 2,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 3,
+        "ig_reels_avg_watch_time": 2903
+      },
+      "ig_link": "https://www.instagram.com/reel/DfmmJlzkof7/",
+      "fb": {
+        "blue_reels_play_count": 2,
+        "post_video_avg_time_watched": 1247,
+        "post_video_social_actions": {}
+      },
+      "fb_link": "https://www.facebook.com/reel/1850816343001914"
+    },
+    {
+      "id": "w1-genie-notice",
+      "when": "2026-11-12T11:00:00+05:30",
+      "series": "genie",
+      "title": "Genie wish: Can I negotiate my 90-day notice?",
+      "ig": {
+        "views": 127,
+        "reach": 110,
+        "likes": 2,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 3,
+        "ig_reels_avg_watch_time": 4060
+      },
+      "ig_link": "https://www.instagram.com/reel/DfoUAf6nJbb/",
+      "fb": {
+        "blue_reels_play_count": 1,
+        "post_video_avg_time_watched": 2294,
+        "post_video_social_actions": {}
+      },
+      "fb_link": "https://www.facebook.com/reel/1685684013187110"
+    },
+    {
+      "id": "pod-ep1-clip2",
+      "when": "2026-11-12T19:00:00+05:30",
+      "series": "podcast",
+      "title": "Podcast ep 1, clip 2: your salary is nobody's business",
+      "ig": {
+        "views": 1175,
+        "reach": 1056,
+        "likes": 21,
+        "comments": 0,
+        "shares": 1,
+        "saved": 1,
+        "total_interactions": 24,
+        "ig_reels_avg_watch_time": 11586
+      },
+      "ig_link": "https://www.instagram.com/reel/DfpK8QvDZM1/",
+      "fb": {
+        "blue_reels_play_count": 1,
+        "post_video_avg_time_watched": 12483,
+        "post_video_social_actions": {}
+      },
+      "fb_link": "https://www.facebook.com/reel/29469982005972256"
+    },
+    {
+      "id": "w1-not-my-level",
+      "when": "2026-11-13T11:00:00+05:30",
+      "series": "jobfinder",
+      "title": "Job Finder: Not my level",
+      "ig": {
+        "views": 60,
+        "reach": 44,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 2,
+        "ig_reels_avg_watch_time": 2759
+      },
+      "ig_link": "https://www.instagram.com/reel/Dfq43KQkziw/",
+      "fb": {
+        "blue_reels_play_count": 0,
+        "post_video_avg_time_watched": 0,
+        "post_video_social_actions": {}
+      },
+      "fb_link": "https://www.facebook.com/reel/1355459523228981"
+    },
+    {
+      "id": "w1-inhand-15l",
+      "when": "2026-11-13T19:00:00+05:30",
+      "series": "real-in-hand",
+      "title": "Real In-Hand: ₹15 lakh CTC",
+      "ig": {
+        "views": 124,
+        "reach": 107,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 2,
+        "ig_reels_avg_watch_time": 4375
+      },
+      "ig_link": "https://www.instagram.com/reel/DfrvvE9Cakr/",
+      "fb": {
+        "blue_reels_play_count": 0,
+        "post_video_avg_time_watched": 0,
+        "post_video_social_actions": {}
+      },
+      "fb_link": "https://www.facebook.com/reel/1454230410236796"
+    },
+    {
+      "id": "w1-slideshow-years",
+      "when": "2026-11-14T11:00:00+05:30",
+      "series": "slideshow",
+      "title": "Slideshow: How many years does each job really need?",
+      "ig": {
+        "views": 87,
+        "reach": 76,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 1,
+        "total_interactions": 3,
+        "ig_reels_avg_watch_time": 3033
+      },
+      "ig_link": "https://www.instagram.com/reel/DftdmJtjFOq/",
+      "fb": {
+        "blue_reels_play_count": 0,
+        "post_video_avg_time_watched": 0,
+        "post_video_social_actions": {}
+      },
+      "fb_link": "https://www.facebook.com/reel/2452570062239821"
+    },
+    {
+      "id": "pod-ep1-clip3",
+      "when": "2026-11-14T19:00:00+05:30",
+      "series": "podcast",
+      "title": "Podcast ep 1, clip 3: is your bonus really your salary?",
+      "ig": {
+        "views": 198,
+        "reach": 162,
+        "likes": 8,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 8,
+        "ig_reels_avg_watch_time": 6744
+      },
+      "ig_link": "https://www.instagram.com/reel/DfuUh5ClDVc/",
+      "fb": {
+        "blue_reels_play_count": 0,
+        "post_video_avg_time_watched": 0,
+        "post_video_social_actions": {}
+      },
+      "fb_link": "https://www.facebook.com/reel/2725892094493442"
+    },
+    {
+      "id": "w1-chai-teaser",
+      "when": "2026-11-15T11:00:00+05:30",
+      "series": "chai",
+      "title": "Chai Break: New Guess the CEO tomorrow",
+      "ig": {
+        "views": 36,
+        "reach": 33,
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "saved": 0,
+        "total_interactions": 1,
+        "ig_reels_avg_watch_time": 1776
+      },
+      "ig_link": "https://www.instagram.com/reel/DfwCdT_Gf-z/",
+      "fb": {
+        "blue_reels_play_count": 0,
+        "post_video_avg_time_watched": 0,
+        "post_video_social_actions": {}
+      },
+      "fb_link": "https://www.facebook.com/reel/3438081473031023"
+    }
+  ]
+}
